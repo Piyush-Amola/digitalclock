@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("background.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+
+}
+.clock{
+    width: 100%;
+   max-width: 500px;
+   height: 15vh;
+   padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px double turquoise;
+    transform: translate(2%, -10%);
+    box-shadow: 2px 2px 20px blue, -2px -2px 18px blue;
+    border-radius: 40px;
+    backdrop-filter: blur(1px);
+}
+
+.clock h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.clock span{
+    position: relative;
+    margin-top: -10%;
+    font-size: 50px;
+    margin-left: 8px;
+
+
+}
